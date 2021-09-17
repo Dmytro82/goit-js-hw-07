@@ -9,4 +9,4 @@ function checkLength() {
     inputRef.classList.add('invalid');
   }
 }
-inputRef.addEventListener('focus', checkLength);
+inputRef.addEventListener('blur', checkLength);
